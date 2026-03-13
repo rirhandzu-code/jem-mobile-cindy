@@ -1,0 +1,18 @@
+git add .
+git commit -m "Optimise Cindy - flash model, caching, prewarm"
+git push origin main
+```
+
+---
+
+### Step 2 — Watch Railway deploy
+1. Go to [railway.app](https://railway.app)
+2. Open your project
+3. Watch the **Deploy Logs** — wait until you see:
+```
+✅ Cindy webhook server running on port 3000
+🔥 Pre-warming translation cache...
+  ✓ zulu cached
+  ✓ xhosa cached
+  ✓ tswana cached
+✅ Cache pre-warm complete
